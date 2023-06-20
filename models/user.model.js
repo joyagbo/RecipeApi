@@ -1,5 +1,5 @@
-const Sequelize = require("sequelize")
-const sequelize = require("../config/connect.js");
+const Sequelize = require("sequelize");
+const sequelize  = require("../config/connect");
 
 const User = sequelize.define('user', {
   userId:{
